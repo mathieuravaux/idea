@@ -1,6 +1,6 @@
 name: 'idea'
 
-description: 'package.coffee -> package.json (dynamic npm packages in CoffeeScript)'
+description: 'Generates IDs and "handles" in node.js (uuid, greek, etc)'
 
 keywords: ['idea']
 
@@ -27,8 +27,8 @@ bugs:
   
 main: 'idea.coffee'
   
-dependencies:
-  'courier': '*'
+# dependencies:
+#   'courier': '*'
   
 engines:
   node: '>= 0.4.2 < 0.5.0'
