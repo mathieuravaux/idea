@@ -27,8 +27,11 @@ bugs:
   
 main: 'idea.coffee'
   
-# dependencies:
-#   'courier': '*'
+dependencies:
+  'rbytes': ">= 0.0.1"
+
+devDependencies:
+  'courier': '>= 0.5.1'
   
 engines:
   node: '>= 0.4.2 < 0.5.0'
